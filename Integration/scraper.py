@@ -141,7 +141,5 @@ def get_lazada_products(keyword="dien thoai"):
         
         # Return sample data on error instead of crashing
         return [
-            {"title": f"San pham 1 - {keyword}", "price": "1,000,000 VND", "img": "", "link": "#"},
-            {"title": f"San pham 2 - {keyword}", "price": "2,000,000 VND", "img": "", "link": "#"},
-            {"title": f"San pham 3 - {keyword}", "price": "3,000,000 VND", "img": "", "link": "#"}
+            
         ]
